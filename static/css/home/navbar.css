@@ -4,14 +4,16 @@
   box-sizing: border-box;
 }
 
-
+.imgagrologo{
+  margin-right: 190px;
+}
 .nav-link {
   display: flex;
 }
 
 .navbar-nav a {
-  margin-left: 25px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 28px;
   font-family: 'Teko', sans-serif;
   font-size: 21px;
   color: #0f5b26;
@@ -29,7 +31,7 @@
   color: rgb(74, 165, 74);  
 }
 
-.sub-navbar ul li a{
+.sub-n2avbar ul li a{
   font-size: 18px;
   font-weight: 600;
   color: #167450;
@@ -52,6 +54,7 @@
 
 /*Adição da barra vertical2*/
 .vertical2 {
+  margin-left: 15px;
   border: none;
   border-left: 2px solid hsla(50, 2%, 15%, 25);
   height: 4.5vh;
@@ -268,7 +271,7 @@ box-sizing: border-box;
 .navMenu {
 position: absolute;
 top: 140%;
-left: 53%;
+left: 55%;
 -webkit-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 display: flex;
