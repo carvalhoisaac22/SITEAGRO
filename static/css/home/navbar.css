@@ -3,7 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar {
 
+  padding-left: 250px;
+  white-space: nowrap;
+  display:flex;
+}
 
 .nav-link {
   display: flex;

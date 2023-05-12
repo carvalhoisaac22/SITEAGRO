@@ -1,7 +1,4 @@
-.carousel2-inner{
-    filter: opacity(10%);
- }
- 
+
 .carousel4-item  { 
     position: relative;
 } 
@@ -534,5 +531,19 @@ img {
 .navMenu:hover{
     color: #22e940;
 }
+
+
+
+
+
+.carousel2-inner{
+   position: relative;
+    
+ }
+ 
+
+
+
+
 
 
