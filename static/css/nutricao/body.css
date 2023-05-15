@@ -1,4 +1,7 @@
 
+html, body {
+    overflow-x: hidden;
+}
 
 /*NAVBAR PRINCIPAL*/
 
@@ -8,13 +11,24 @@
 .navMenu a:hover{
     color: blue;
 }
+
+/*IMAGEM UPDOG */
+
+.imgmain{
+    width: 1950px;
+    height: 950px;
+    
+}
+
+
 /*SLIDER DE PRODUTOS*/
 
 /*INICIO*/
 .btn-orcamento{
-    padding: 16px 16px 8px 8px;
-    margin-left: 56px;
-    border-radius: 10px;
+    padding: 8px 20px 20px 8px;
+    margin-left: 26px;
+    margin-top: 10%;
+    border-radius: 40px;
     color: #007bff;
     background-color: #fff;
     font-size: 15px;
@@ -23,45 +37,63 @@
     cursor:pointer;
     border-color: #007bff;
     border-width: 3px;
+    z-index: 10;
 }
 
 .orcamento{
+    padding-top: 6px;
     margin-left: 6px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    z-index: 10;
 }
 
 .btn-orcamento:hover{
     background-color:#007bff;
     color: white;
     transition: 0.3s;
+    z-index: 10;
 }
 
 .card-body h5{
     font-size: 18px;
     font-weight: bold;
     color:#1a7753;
+    z-index: 10;
 }
 
 
 .titleProd{
-    text-align: center;
-    font-size: 30px;
+    
+    padding-bottom: 120px;
+    margin-left: 700px;
+    font-size: 16px;
     font-weight:900;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:#007bff;
+    color:#002a57;
+    z-index: 10;
 }
+
+
+.back-slider img{
+    background-position: center center;
+    
+}
+
 
 .product {
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
+    padding-top: 90px;
+    position: absolute;
+    
+    
 
 }
 
+
 .product-container {
-    padding: 0 10vw;
+    position: absolute;
+    padding: 0 -7vw;
     display: flex;
     overflow:hidden;
     scroll-behavior:smooth;
@@ -83,7 +115,8 @@
     flex: 0 0 auto;
     width: 250px;
     height: 450px;
-    margin-right: 40px;
+    margin-right: 145px;
+    
 }
 
 .product-image{
@@ -91,6 +124,7 @@
     width: 100%;
     height: 350px;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .product-thumb{
@@ -108,7 +142,6 @@
     right: 10px;
     top: 10px;
     text-transform: capitalize;
-
 }
 
 .card-btn{
@@ -139,6 +172,22 @@
 
 }
 
+.product-container{
+    margin-left: 90px;
+}
+
+.pre-btn{
+    margin-right: 1%;
+    margin-block-end: 5%;
+    background-color: white;
+    border-style: none;
+    text-decoration: none;
+}
+
+.pre-btn:focus, input:focus{
+    outline: none;
+
+}
 .product-info {
     width: 100%;
     height: 30%;
@@ -162,40 +211,6 @@
 
 }
 
-.pre-btn,
-.nxt-btn {
-    border: none;
-    width: 15vw;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(2255, 255, 255, 0) 0%, #fff 100%);
-    cursor: pointer;
-    z-index: 9;
-}
-
-.pre-btn{
-    left: 0;
-    transform: rotate(180deg);
-}
-
-.nxt-btn{
-    right: 0;
-}
-
-.pre-btn img,
-.nxt-btn img{
-    opacity: 0.2;
-}
-
-.pre-btn:hover img,
-.nxt-btn-hover img{
-    opacity: 1;
-
-}
 
 .collection-container {
     width: 100%;
@@ -235,6 +250,10 @@
 
 /*FIM DO SLIDER DE PRODUTOS*/
 
+/*BARRA DE MÍDIAS - INICIO*/
+.mediabar scr{
+margin-right: 400px;
+}
 
 /*DEPOIMENTOS*/
 
@@ -246,6 +265,8 @@
 }
 
 
+
+/*background slider produtos*/
 
 
 
