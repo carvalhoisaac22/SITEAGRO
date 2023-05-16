@@ -74,7 +74,7 @@
 }
 .inicial6{
     position: absolute;
-    margin-left: 62%;
+    margin-left: 62.5%;
     margin-top: 27%;
 }
 .inicial7{
@@ -141,6 +141,7 @@
   
 /* botao seguimentos 1*/ 
 .btn-donate1 {
+    margin-top: 3%;
     --clr-font-main: hsla(0 0% 20% / 100);
     --btn-bg-1: rgb(159, 244, 147);
     --btn-bg-2: rgb(255, 255, 255);
@@ -256,9 +257,9 @@
 
 /*slide seguimentos*/
 .slider1 {
-    position: relative;
-    width: 960px;
-    height: 300px;
+    position: absolute;
+    width: 1000px;
+    height: 330px;
     margin: 50px auto;
     overflow: hidden;
 }
@@ -266,7 +267,7 @@
 .slider1-controls {
     position: absolute;
     bottom: 0px;
-    left: 75%;
+    left: 68%;
     width: 100px;
     text-align: center;
     transform: translatex(-50%);
@@ -337,7 +338,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-left: 35%;
+    margin-left: 30%;
     height: 200%;
     color: #fff;
     opacity: 0;
@@ -498,7 +499,6 @@
     font-family: 'Teko', sans-serif;
     color: #15632c;
     font-size:140%
-
 }
    
 .card-details {
@@ -570,6 +570,10 @@ img {
 
 .carousel2-inner{
     filter: opacity(100%);
+    width: 1200px;
+    height: 400px;
+   
+    
 }
 .carousel7-item{
     position: relative;
@@ -590,10 +594,9 @@ img {
     position: absolute;
     color: #15632c;
     font-family: 'Teko', sans-serif;
-    top: 53%;
+    top: 45%;
     font-size: 140%;
     left: 7%;
 }
-
 
 
