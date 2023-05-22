@@ -1,20 +1,38 @@
 
 
-const productContainers = [...document.querySelectorAll('.product-container')];
-const nxtBtn =[...document.querySelectorAll('.nxt-btn')];
-const preBtn =[...document.querySelectorAll('.pre-btn')];
 
-productContainers.forEach((item, i)=>{
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
+let span = document.getElementsByTagName('span');
+	let product = document.getElementsByClassName('product')
+	let product_page = Math.ceil(product.length/4);
+	let l = 0;
+	let movePer = 23.34;
+	let maxMove = 195;
+	// mobile_view	
+	let mob_view = window.matchMedia("(max-width: 768px)");
+	if (mob_view.matches)
+	 {
+	 	movePer = 50.36;
+	 	maxMove = 520;
+	 }
 
-    nxtBtn[i].addEventListener('click', ()=> {
-        item.scrollLeft += containerWidth;
+	let right_mover = ()=>{
+		l = l + movePer;
+		if (product == 1){l = 0; }
+		for(const i of product)
+		{
+			if (l > maxMove){l = l - movePer;}
+			i.style.left = '-' + l + '%';
+		}
 
-    })
-
-    preBtn[i].addEventListener('click', ()=> {
-        item.scrollLeft -= containerWidth;
-        
-    })
-});
+	}
+	let left_mover = ()=>{
+		l = l - movePer;
+		if (l<=0){l = 0;}
+		for(const i of product){
+			if (product_page>1){
+				i.style.left = '-' + l + '%';
+			}
+		}
+	}
+	span[1].onclick = ()=>{right_mover();}
+	span[0].onclick = ()=>{left_mover();}
