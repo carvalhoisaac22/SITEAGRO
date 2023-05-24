@@ -1,3 +1,8 @@
+html{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
 .carousel4-item  { 
     position: relative;
 } 
@@ -68,7 +73,7 @@
 .inicial5{
     position: absolute;
     margin-left: 44%;
-    margin-top: 26%;
+    margin-top: 26.5%;
 }
 .inicial6{
     position: absolute;
@@ -255,10 +260,11 @@
 /*slide seguimentos*/
 .slider1 {
     position: absolute;
-    width: 1000px;
+    width: 640px;
     height: 330px;
     margin: 50px auto;
     overflow: hidden;
+    left: 50%;
 }
   
 .slider1-controls {
@@ -509,6 +515,7 @@
 
 img {
     border-radius: 5px;
+   
 }
 
 .card-button {
