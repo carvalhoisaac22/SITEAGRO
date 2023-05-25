@@ -1,7 +1,10 @@
-html{
+
+
+  html{
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 .carousel4-item  { 
     position: relative;
@@ -93,6 +96,7 @@ html{
     color: #15632c;
     font-size: 85%;
     width: 50%;
+  
 }
 .quemsomos3{
     position: absolute;
@@ -515,7 +519,7 @@ html{
 
 img {
     border-radius: 5px;
-   
+
 }
 
 .card-button {
