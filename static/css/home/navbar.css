@@ -1,12 +1,16 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
+<<<<<<< HEAD
 .imgagrologo{
   margin-right: 190px;
 }
+=======
+.navbar {
+  padding-left: 250px;
+  white-space: nowrap;
+  display:flex;
+}
+
+>>>>>>> 2ffe664b52067330a9aa630af77ed5507ca9a115
 .nav-link {
   display: flex;
 }
@@ -261,12 +265,7 @@ input::placeholder {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-* {
-margin: 0;
-padding: 0;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-}
+
 
 .navMenu {
 position: absolute;
