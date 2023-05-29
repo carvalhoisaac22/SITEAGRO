@@ -13,10 +13,11 @@
     display: flex;
 }
 .navbar-nav a {
+   font-family: 'Teko', sans-serif;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 17px;
-    color: #002e83;
+    color: #688cce;
     font-weight: bold;   
 }
 .navbar-nav a:hover{
